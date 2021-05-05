@@ -1,0 +1,76 @@
+*{
+    margin: 0%;
+    padding: 0;
+
+}
+body {
+background-image: url(image/fond.jpg);
+  background-size: 100%;
+  background-attachment : fixed;
+}
+
+h1 {
+  color:#009ABA;
+  font-size: 2.5em;
+  text-shadow:1px 4px 5px #52504E;
+}
+
+
+p{
+  font-size: 1.3em;
+  color:#FFF
+}
+
+
+
+
+  .regle{
+  font-family: Arial, sans-serif;
+  font-size: 1.3em;
+  width: 200px;
+  height: 78px;
+  padding-top: 7px;
+  /*permet le centrage vertical*/
+  text-align: center;
+  color: #000;
+  background: #8AEBFF;
+  /*une couleur est laisser pour les plus anciens navigateur*/
+  background: linear-gradient( #8AEBFF, #00667A);
+  /*permet un degrader du haut vers le bas en partant de la premiere couleur pour arriver à la deuxième*/
+  border-radius: 6px;
+  /*pour pouvoir avoir des angles arrondis*/
+  text-shadow: 1px 1px 3px rgba(225, 225, 225, 0.2);
+  /*la fonction rgba permet d'avoir un blanc tranparent pour que ce soit moins marqué. On a la couleur puis le pourcentage*/
+  box-shadow: 1px 2px 7px rgba( 0, 0, 0, 0.5), /*ombre noir*/
+  0 -1px 0 rgba( 255, 255, 255, 0.4);
+  /*ombre blanche sur le bouton*/
+}  
+
+.regle:hover {
+  /* quand l'utili mis la souris au dessus du bouton*/
+  color: #000;
+  background: #409CFF;
+  background: linear-gradient( #00667A, #8AEBFF);
+}
+
+@keyframes backgroundScroll {
+  from {
+    background-position: 16PX 0;
+  }
+  to {
+    background-position: -516px 0PX;
+  }
+}
+
+
+tr{
+    cursor: pointer;
+}
+
+
+@media screen and (max-width:600px){
+    body {
+        background-color: lightseagreen;
+    }
+    
+}

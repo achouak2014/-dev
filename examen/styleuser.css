@@ -1,0 +1,14 @@
+h1{
+    color: maroon;
+}
+
+tr{
+    cursor: pointer;
+}
+
+@media screen and (max-width:600px){
+    body {
+        background-color: lightseagreen;
+    }
+    
+}
